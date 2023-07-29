@@ -776,7 +776,7 @@ header_logo_normal_special_text {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #FFE16E;
+    background: orange;
     width: 100%;
     /* height: 100%; */
     margin: 0;
