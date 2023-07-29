@@ -15,6 +15,13 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+    <script src="email.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("borfIPzg9Xxi-F8YJ");
+        })();
+    </script>
 
 </head>
 
@@ -124,36 +131,36 @@
 
                 <!-- Name input -->
                 <div class="form-outline mb-4">
-                    <input type="text" id="form4Example1" class="form-control" />
-                    <label class="form-label" for="form4Example1">Name *</label>
+                    <input type="text" id="name" class="form-control" />
+                    <label class="form-label" for="name">Name *</label>
                 </div>
 
                 <!-- Email input -->
                 <div class="form-outline mb-4">
-                    <input type="email" id="form4Example2" class="form-control" />
-                    <label class="form-label" for="form4Example2">Email address *</label>
+                    <input type="email" id="email" class="form-control" />
+                    <label class="form-label" for="email">Email address *</label>
                 </div>
 
                 <!-- Phone Number input -->
                 <div class="form-outline mb-4">
-                    <input type="number" id="form4Example3" class="form-control" />
-                    <label class="form-label" for="form4Example3">Phone (optional)</label>
+                    <input type="number" id="phoneno" class="form-control" />
+                    <label class="form-label" for="phoneno">Phone (optional)</label>
                 </div>
 
                 <!-- Location input -->
                 <div class="form-outline mb-4">
-                    <input type="text" id="form4Example4" class="form-control" />
-                    <label class="form-label" for="form4Example4">Email address *</label>
+                    <input type="text" id="location" class="form-control" />
+                    <label class="form-label" for="location">Location *</label>
                 </div>
 
                 <!-- Message input -->
                 <div class="form-outline mb-4">
-                    <textarea class="form-control" id="form4Example5" rows="4"></textarea>
-                    <label class="form-label" for="form4Example5">Message (optional)</label>
+                    <textarea class="form-control" id="message" rows="4"></textarea>
+                    <label class="form-label" for="message">Message (optional)</label>
                 </div>
 
                 <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+                <button type="button" onclick="sendMail()" class="btn btn-primary btn-block mb-4">Send</button>
             </form>
         </div>
 
@@ -306,6 +313,7 @@
 
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+
 </body>
 
 </html>
