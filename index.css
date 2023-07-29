@@ -133,6 +133,10 @@ header{
 
 }
 
+header_logo_normal_special_text {
+    color: #000;
+}
+
 .nav-item {
     color: orange;
 }

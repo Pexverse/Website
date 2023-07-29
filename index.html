@@ -17,36 +17,60 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
 
 </head>
-<header>
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Container wrapper -->
     <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                <svg class="bi me-2" width="40" height="32">
-                    <use xlink:href="#bootstrap" />
-                </svg>
+        <!-- Navbar brand -->
+        <a class="navbar-brand me-2" href="https://mdbgo.com/">
+            <!-- <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="16" alt="MDB Logo"
+                loading="lazy" style="margin-top: -1px;" /> -->
+            <span class="fs-4"><span class="header_logo_normal_text">pe</span><span
+                    class="header_logo_normal_special_text">X</span><span
+                    class="header_logo_normal_text">verse</span></span>
+        </a>
 
-                <span class="fs-4"><span class="header_logo_normal_text">pe</span><span
-                        class="header_logo_normal_special_text">X</span><span
-                        class="header_logo_normal_text">verse</span></span>
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarButtonsExample"
+            aria-controls="navbarButtonsExample" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
 
-            </a>
-
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#" class="nav-link" style="color: white;background-color: orange;"
-                        aria-current="page">Home</a>
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarButtonsExample">
+            <!-- Left links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <!-- <a class="nav-link" href="#">Home</a> -->
                 </li>
-                <!-- <li class="nav-item"><button type="button" class="btn btn-warning">Home</button></li> -->
-                <li class="nav-item"><a href="#" class="nav-link" style="color: orange;background-color: white;">Contact
-                        Us</a></li>
-                <li class="nav-item"><a href="#" class="nav-link" style="color: orange;background-color: white;">Social
-                        Media</a></li>
-                <li class="nav-item"><a href="#" class="nav-link" style="color: orange;background-color: white;">About
-                        US</a></li>
             </ul>
-        </header>
-    </div>
+            <!-- Left links -->
 
-</header>
+            <div class="d-flex align-items-center">
+                <button type="button" style="background-color: orange;color:white;" class="btn px-3 me-2">
+                    Home
+                </button>
+
+                <button type="button" style="color:orange;" class="btn btn-link px-3 me-2">
+                    Socials
+                </button>
+
+                <button type="button" style="color:orange;" class="btn btn-link px-3 me-2">
+                    Contact
+                </button>
+
+                <button type="button" style="color:orange;" class="btn btn-link px-3 me-2">
+                    About
+                </button>
+            </div>
+        </div>
+        <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
 
 <body>
 
@@ -121,14 +145,6 @@
             <div class="form-outline mb-4">
                 <textarea class="form-control" id="form4Example5" rows="4"></textarea>
                 <label class="form-label" for="form4Example5">Message (optional)</label>
-            </div>
-
-            <!-- Checkbox -->
-            <div class="form-check d-flex justify-content-center mb-4">
-                <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
-                <label class="form-check-label" for="form4Example4">
-                    Send me a copy of this message
-                </label>
             </div>
 
             <!-- Submit button -->
