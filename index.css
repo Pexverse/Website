@@ -798,3 +798,18 @@ body {
     box-sizing: border-box;
     position: relative;
 }
+
+/*  For scroll up button this added */
+
+.button a {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    background: orange;
+    padding: 7px 12px;
+    ;
+    font-size: 18px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.15);
+}

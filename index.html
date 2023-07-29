@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
@@ -24,7 +24,7 @@
     <!-- Container wrapper -->
     <div class="container">
         <!-- Navbar brand -->
-        <a class="navbar-brand me-2" href="https://mdbgo.com/">
+        <a class="navbar-brand me-2" href="https://pexverse.com/">
             <!-- <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="16" alt="MDB Logo"
                 loading="lazy" style="margin-top: -1px;" /> -->
             <span class="fs-4"><span class="header_logo_normal_text">pe</span><span
@@ -52,18 +52,22 @@
                 <button type="button" style="background-color: orange;color:white;" class="btn px-3 me-2">
                     Home
                 </button>
+                <a href="#Footer">
+                    <button type="#Footer" style="color:orange;" class="btn btn-link px-3 me-2">
+                        Socials
+                    </button>
+                </a>
 
-                <button type="button" style="color:orange;" class="btn btn-link px-3 me-2">
-                    Socials
-                </button>
-
-                <button type="button" style="color:orange;" class="btn btn-link px-3 me-2">
-                    Contact
-                </button>
-
-                <button type="button" style="color:orange;" class="btn btn-link px-3 me-2">
-                    About
-                </button>
+                <a href="#contact">
+                    <button type="button" style="color:orange;" class="btn btn-link px-3 me-2">
+                        Contact
+                    </button>
+                </a>
+                <a href="#Footer">
+                    <button type="button" style="color:orange;" class="btn btn-link px-3 me-2">
+                        About
+                    </button>
+                </a>
             </div>
         </div>
         <!-- Collapsible wrapper -->
@@ -73,18 +77,19 @@
 <!-- Navbar -->
 
 <body>
-
-    <div class="dogcontainer">
-        <div class="dog">
-            <div class="dog-body">
-                <div class="dog-tail">
+    <section id="comming-soon">
+        <div class="dogcontainer">
+            <div class="dog">
+                <div class="dog-body">
                     <div class="dog-tail">
                         <div class="dog-tail">
                             <div class="dog-tail">
                                 <div class="dog-tail">
                                     <div class="dog-tail">
                                         <div class="dog-tail">
-                                            <div class="dog-tail"></div>
+                                            <div class="dog-tail">
+                                                <div class="dog-tail"></div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -92,195 +97,207 @@
                         </div>
                     </div>
                 </div>
+                <div class="dog-torso"></div>
+                <div class="dog-head">
+                    <div class="dog-ears">
+                        <div class="dog-ear"></div>
+                        <div class="dog-ear"></div>
+                    </div>
+                    <div class="dog-eyes">
+                        <div class="dog-eye"></div>
+                        <div class="dog-eye"></div>
+                    </div>
+                    <div class="dog-muzzle">
+                        <div class="dog-tongue"></div>
+                    </div>
+                </div>
             </div>
-            <div class="dog-torso"></div>
-            <div class="dog-head">
-                <div class="dog-ears">
-                    <div class="dog-ear"></div>
-                    <div class="dog-ear"></div>
+
+            <div class="ball" tabindex="0"></div>
+            <div><img class="comming-soon" src="./images/coming-soon-2.png"></div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="subscribe container-fluid">
+            <form>
+                <h1 class="mb-3">Contact Us</h1>
+
+                <!-- Name input -->
+                <div class="form-outline mb-4">
+                    <input type="text" id="form4Example1" class="form-control" />
+                    <label class="form-label" for="form4Example1">Name *</label>
                 </div>
-                <div class="dog-eyes">
-                    <div class="dog-eye"></div>
-                    <div class="dog-eye"></div>
+
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                    <input type="email" id="form4Example2" class="form-control" />
+                    <label class="form-label" for="form4Example2">Email address *</label>
                 </div>
-                <div class="dog-muzzle">
-                    <div class="dog-tongue"></div>
+
+                <!-- Phone Number input -->
+                <div class="form-outline mb-4">
+                    <input type="number" id="form4Example3" class="form-control" />
+                    <label class="form-label" for="form4Example3">Phone (optional)</label>
                 </div>
-            </div>
+
+                <!-- Location input -->
+                <div class="form-outline mb-4">
+                    <input type="text" id="form4Example4" class="form-control" />
+                    <label class="form-label" for="form4Example4">Email address *</label>
+                </div>
+
+                <!-- Message input -->
+                <div class="form-outline mb-4">
+                    <textarea class="form-control" id="form4Example5" rows="4"></textarea>
+                    <label class="form-label" for="form4Example5">Message (optional)</label>
+                </div>
+
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+            </form>
         </div>
 
-        <div class="ball" tabindex="0"></div>
-        <div><img class="comming-soon" src="./images/coming-soon-2.png"></div>
-    </div>
+    </section>
+    <section id="Footer">
+        <!-- Footer  -->
+        <div class="container-fluid">
+            <!-- Footer -->
+            <footer class="text-center text-lg-start bg-light text-muted">
+                <!-- Section: Social media -->
+                <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                    <!-- Left -->
+                    <div class="me-5 d-none d-lg-block">
+                        <span>Get connected with us on social networks:</span>
+                    </div>
+                    <!-- Left -->
 
-    <div class="subscribe container-fluid">
-        <form>
-            <h1 class="mb-3">Contact Us</h1>
+                    <!-- Right -->
+                    <div>
+                        <a href="https://www.facebook.com/pexverse" class="me-4 text-reset">
+                            <!-- Facebook -->
+                            <i class="fab fa-facebook-f fa-2x" style="color: #3b5998;"></i>
+                        </a>
+                        <a href="https://twitter.com/pexverse" class="me-4 text-reset">
+                            <!-- Twitter -->
+                            <i class="fab fa-twitter fa-2x" style="color: #55acee;"></i>
 
-            <!-- Name input -->
-            <div class="form-outline mb-4">
-                <input type="text" id="form4Example1" class="form-control" />
-                <label class="form-label" for="form4Example1">Name *</label>
-            </div>
-
-            <!-- Email input -->
-            <div class="form-outline mb-4">
-                <input type="email" id="form4Example2" class="form-control" />
-                <label class="form-label" for="form4Example2">Email address *</label>
-            </div>
-
-            <!-- Phone Number input -->
-            <div class="form-outline mb-4">
-                <input type="number" id="form4Example3" class="form-control" />
-                <label class="form-label" for="form4Example3">Phone (optional)</label>
-            </div>
-
-            <!-- Location input -->
-            <div class="form-outline mb-4">
-                <input type="text" id="form4Example4" class="form-control" />
-                <label class="form-label" for="form4Example4">Email address *</label>
-            </div>
-
-            <!-- Message input -->
-            <div class="form-outline mb-4">
-                <textarea class="form-control" id="form4Example5" rows="4"></textarea>
-                <label class="form-label" for="form4Example5">Message (optional)</label>
-            </div>
-
-            <!-- Submit button -->
-            <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
-        </form>
-    </div>
-
-
-    <!-- Footer  -->
-    <div class="container-fluid">
-        <!-- Footer -->
-        <footer class="text-center text-lg-start bg-light text-muted">
-            <!-- Section: Social media -->
-            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-                <!-- Left -->
-                <div class="me-5 d-none d-lg-block">
-                    <span>Get connected with us on social networks:</span>
-                </div>
-                <!-- Left -->
-
-                <!-- Right -->
-                <div>
-                    <a href="https://www.facebook.com/pexverse" class="me-4 text-reset">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://twitter.com/pexverse" class="me-4 text-reset">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <!-- <a href="" class="me-4 text-reset">
+                        </a>
+                        <!-- <a href="" class="me-4 text-reset">
                         <i class="fab fa-google"></i>
                     </a> -->
-                    <a href="https://www.instagram.com/pexverse/" class="me-4 text-reset">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <!-- <a href="" class="me-4 text-reset">
+                        <a href="https://www.instagram.com/pexverse/" class="me-4 text-reset">
+                            <!-- Instagram -->
+                            <i class="fab fa-instagram fa-2x" style="color: #ac2bac;"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <!-- Linkedin -->
+                            <i class="fab fa-linkedin-in fa-2x" style="color: #0082ca;"></i>
+                        </a>
+                        <!-- <a href="" class="me-4 text-reset">
                         <i class="fab fa-github"></i>
                     </a> -->
-                </div>
-                <!-- Right -->
-            </section>
-            <!-- Section: Social media -->
-
-            <!-- Section: Links  -->
-            <section class="">
-                <div class="container text-center text-md-start mt-5">
-                    <!-- Grid row -->
-                    <div class="row mt-3">
-                        <!-- Grid column -->
-                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                            <!-- Content -->
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                <i class="fas fa-gem me-3"></i>peXverse
-                            </h6>
-                            <p>
-                                Envisioning a universe where pet lovers and owners unite, fostering an ever growing
-                                community that cherishes the bond between humans and animals.
-
-                                Our vision is to create a one stop platform for all pet Lovers, giving access to the
-                                right resources and necessary guidance, and for all pet enthusiasts helping them find a
-                                safe space to contribute to the well being of their furry companions
-                            </p>
-                        </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
-                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                Products
-                            </h6>
-                            <p>
-                                <a href="#!" class="text-reset">Angular</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-reset">React</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-reset">Vue</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-reset">Laravel</a>
-                            </p>
-                        </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
-                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                Useful links
-                            </h6>
-                            <p>
-                                <a href="#!" class="text-reset">Pricing</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-reset">Settings</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-reset">Orders</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-reset">Help</a>
-                            </p>
-                        </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
-                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                            <p><i class="fas fa-home me-3"></i> Banglore ,India</p>
-                            <p>
-                                <i class="fas fa-envelope me-3"></i>
-                                pexverse@gmail.com
-                            </p>
-                            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-                            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
-                        </div>
-                        <!-- Grid column -->
                     </div>
-                    <!-- Grid row -->
-                </div>
-            </section>
-            <!-- Section: Links  -->
+                    <!-- Right -->
+                </section>
+                <!-- Section: Social media -->
 
-            <!-- Copyright -->
-            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-                © 2023 Copyright:
-                <a class="text-reset fw-bold" href="https://pexverse.com/">pexverse.com</a>
-            </div>
-            <!-- Copyright -->
-        </footer>
-        <!-- Footer -->
+                <!-- Section: Links  -->
+                <section class="">
+                    <div class="container text-center text-md-start mt-5">
+                        <!-- Grid row -->
+                        <div class="row mt-3">
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                <!-- Content -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    <i class="fas fa-gem me-3"></i>peXverse
+                                </h6>
+                                <p>
+                                    Envisioning a universe where pet lovers and owners unite, fostering an ever growing
+                                    community that cherishes the bond between humans and animals.
+
+                                    Our vision is to create a one stop platform for all pet Lovers, giving access to the
+                                    right resources and necessary guidance, and for all pet enthusiasts helping them
+                                    find a
+                                    safe space to contribute to the well being of their furry companions
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    Products
+                                </h6>
+                                <p>
+                                    <a href="#!" class="text-reset">Angular</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">React</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Vue</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Laravel</a>
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    Useful links
+                                </h6>
+                                <p>
+                                    <a href="#!" class="text-reset">Pricing</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Settings</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Orders</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Help</a>
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                                <p><i class="fas fa-home me-3"></i> Banglore ,India</p>
+                                <p>
+                                    <i class="fas fa-envelope me-3"></i>
+                                    pexverse@gmail.com
+                                </p>
+                                <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                                <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                            </div>
+                            <!-- Grid column -->
+                        </div>
+                        <!-- Grid row -->
+                    </div>
+                </section>
+                <!-- Section: Links  -->
+
+                <!-- Copyright -->
+                <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                    © 2023 Copyright:
+                    <a class="text-reset fw-bold" href="https://pexverse.com/">pexverse.com</a>
+                </div>
+                <!-- Copyright -->
+            </footer>
+            <!-- Footer -->
+        </div>
+
+    </section>
+    <div class="button">
+        <a href=""><i class="fa-solid fa-arrow-up"></i></a>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
