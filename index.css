@@ -130,11 +130,15 @@ header{
 
 .header_logo_normal_text {
     color: orange;
+    font-weight: 600;
+
 
 }
 
-header_logo_normal_special_text {
+.header_logo_normal_special_text {
     color: #000;
+    font-weight: 600;
+    font-size: xx-large;
 }
 
 .nav-item {
