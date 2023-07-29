@@ -7,7 +7,7 @@
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
     .comming-soon {
-        width: 550px;
+        width: 530px;
         position: relative;
         top: 210px;
     }
